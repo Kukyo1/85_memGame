@@ -1,0 +1,44 @@
+.App{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    margin-top: 20px;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 36px;
+    color: whitesmoke;
+}
+
+.timer{
+    margin-top: 14px;
+    font-size: 32px;
+    color: whitesmoke;
+}
+.lives{
+    font-size: 24px;
+    color: whitesmoke;
+}
+.App button{
+    margin-top: 12px;
+    font-size: 24px;
+    color: whitesmoke;
+    outline: none;
+    border: solid;
+    border-radius: 4px;
+    cursor: pointer;
+    background: none;
+
+    padding: 8px 12px 8px 12px;
+}
+
+.card-grid{
+    margin-top: 36px;
+    display: grid;
+    /* grid-template-columns: 200px 200px 200px 200px; */
+    gap: 20px
+}
